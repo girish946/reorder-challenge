@@ -59,13 +59,11 @@ class Reorder:
 		#exchange the elements of list l according to the elements in the lists xchg_left and xchg_right
 		for i in range(len(self.xchg_right)):
 			last_prev = self.prev
-			if not self.xchg_left[i] == last_prev :
-				self.exchange(self.xchg_left[i] , self.prev )
-				self.prev = self.xchg_left[i]
+			self.exchange(self.xchg_left[i] , self.prev )
+			self.prev = self.xchg_left[i]
 			if not( ( (len(self.l) -1) % 2 ) == 0 and i == len(self.xchg_right) -1):
-				if not self.xchg_right[i] == last_prev :
-					self.exchange(self.xchg_right[i] ,self.prev )
-					self.prev = self.xchg_right[i]
+				self.exchange(self.xchg_right[i] ,self.prev )
+				self.prev = self.xchg_right[i]
 			else:
 				pass
 		
