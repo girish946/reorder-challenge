@@ -9,8 +9,8 @@ Initially the list as specified in the problem statement will be like
 The list has to be reordered so that all 'a' elements are to the left of all 'b' elements, like<br>['', '', '', '', '', '', '', '', '', 'a', 'a', 'a', 'a', 'a', 'b', 'b', 'b', 'b', 'b', '']<br>
 
 sample input:
-	5
- sample output:
+	5<br>
+sample output:
 	6 to 0<br>
 	1 to 6<br>
 	8 to 1<br>
