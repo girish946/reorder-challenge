@@ -8,4 +8,4 @@ run:
 """
 if __name__ == "__main__":
 	l = Reorder( int(raw_input("enter the number of pairs ")) ).getList()
-	print l
+	#print l

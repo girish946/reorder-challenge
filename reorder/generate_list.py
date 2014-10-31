@@ -14,7 +14,7 @@ class Generate_List:
 			else:
 				self.l.append("b")
 				self.l.append("a")
-		print self.l
+		#print self.l
 	
 	def getList(self):
 		"""
